@@ -93,5 +93,5 @@ This project is licensed under the MIT License.
 ## Contact
 For any questions or suggestions, feel free to reach out:
 
-Email: ykhandewal571@gmail.com
-GitHub: ykhandelwal571
+- Email: ykhandewal571@gmail.com
+- GitHub: ykhandelwal571
