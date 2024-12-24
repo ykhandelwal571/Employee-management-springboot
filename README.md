@@ -55,17 +55,18 @@ Copy code
 mvn spring-boot:run
 ```
 ### 4. Access the Application
--The application runs on http://localhost:8080 by default.
--Use tools like Postman or a web browser to test the APIs.
+- The application runs on http://localhost:8080 by default.
+- Use tools like Postman or a web browser to test the APIs.
 
 ## Endpoints
--GET /employees - Retrieve all employees
--GET /employees/{id} - Retrieve an employee by ID
--POST /employees - Add a new employee
--PUT /employees/{id} - Update an existing employee
--DELETE /employees/{id} - Delete an employee by ID
+- GET /employees - Retrieve all employees
+- GET /employees/{id} - Retrieve an employee by ID
+- POST /employees - Add a new employee
+- PUT /employees/{id} - Update an existing employee
+- DELETE /employees/{id} - Delete an employee by ID
 
 ## Project Structure
+```bash
 src/main/java
 ├── com.example.employeemanagement
 │   ├── controller   # Contains REST controllers
@@ -76,7 +77,7 @@ src/main/java
 src/main/resources
 ├── application.properties  # Configuration file for Spring Boot
 └── static                  # Static files (if any)
-
+```
 ## Future Enhancements
 - Add user authentication and authorization
 - Implement pagination and sorting for large datasets
