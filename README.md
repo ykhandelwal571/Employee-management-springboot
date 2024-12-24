@@ -28,7 +28,6 @@ This is a simple **Employee Management System** project developed using **Spring
 ## Setup Instructions
 
 ### 1. Clone the repository
-```bash
 git clone https://github.com/your-username/employee-management-system.git
 cd employee-management-system
 
@@ -37,7 +36,7 @@ cd employee-management-system
 - Create a MySQL database named `employee_management` (or any name you prefer).
 - Update the database configurations in the `application.properties` file:
 
-  ```properties
+  properties
   spring.datasource.url=jdbc:mysql://localhost:3306/employee_management
   spring.datasource.username=your_mysql_username
   spring.datasource.password=your_mysql_password
